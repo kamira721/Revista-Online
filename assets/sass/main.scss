@@ -1,0 +1,39 @@
+//importacion de abstracts
+@import"abstracts/variables";
+@import"abstracts/functions";
+@import"abstracts/mixins";
+@import"abstracts/placeholders";
+
+//importacion de vendors
+
+@import"vendors/jquery-ui";
+
+//importacion de base
+@import"base/typography";
+@import"base/reset";
+@import"base/base";
+
+//importacion de layout
+@import"layout/contenido";
+@import"layout/main";
+@import"layout/grid";
+@import"layout/navigation";
+@import"layout/header";
+@import"layout/footer";
+@import"layout/sidebar";
+@import"layout/forms";
+@import"layout/newsletter";
+
+// importacion de components
+@import"components/buttons";
+@import"components/carousel";
+@import"components/cover";
+@import"components/dropdown";
+
+//importacion de pages
+@import"pages/home";
+@import"pages/contact";
+
+//importacion de themes
+@import"themes/theme";
+@import"themes/admin";

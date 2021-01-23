@@ -1,0 +1,53 @@
+.menu {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.menu_logo {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.menu__nav {
+    display: inline-block;
+}
+
+.menu__nav_ul {
+    list-style: none;
+    margin-left: 60%;
+
+    li {
+        display: inline;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.menu__nav_ul-input {
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 767px){
+  .contenedor{
+    width: 70vw;
+    margin: 0 15%;
+  }
+  .nosotros{
+    display: none;
+  }
+  .aside{
+    display:none;
+  }
+  .contacto{
+    display: inline-block;
+  }
+  .menu__nav_ul-input{
+    display: inline-block;
+    width: 100%;
+  }
+}
